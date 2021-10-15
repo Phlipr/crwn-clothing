@@ -34,11 +34,11 @@ export const MenuItemContainer = styled.div`
 `;
 
 export const BackgroundImageContainer = styled.div`
-    width: 100%;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-image: ${({ imageUrl }) => `url(${imageUrl})`};
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: ${({ imageUrl }) => `url(/${imageUrl})`};
 `;
 
 export const ContentContainer = styled.div`
