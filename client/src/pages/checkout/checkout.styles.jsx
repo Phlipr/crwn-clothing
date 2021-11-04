@@ -7,6 +7,10 @@ export const CheckoutPageContainer = styled.div`
     flex-direction: column;
     align-items: center;
     margin: 50px auto 0;
+
+    @media screen and (max-width: 800px) {
+        width: 90%;
+    }
 `;
 
 export const CheckoutHeader = styled.div`
@@ -42,4 +46,8 @@ export const TestWarningContainer = styled.div`
     margin-top: 40px;
     font-size: 24px;
     color: red;
+
+    @media screen and (max-width: 800px) {
+        font-size: 18px;
+    }
 `;
