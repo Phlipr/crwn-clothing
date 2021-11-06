@@ -5,6 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import HomePage from "./pages/homepage/homepage.component";
 import Header from "./components/header/header.component";
 import Spinner from "./components/spinner/spinner.component";
+import ErrorBoundary from "./components/error-boundary/error-boundary.component";
 
 import { GlobalStyles } from "./global.styles";
 
@@ -29,17 +30,19 @@ const App = () => {
       <GlobalStyles />
       <Header />
       <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Suspense fallback={<Spinner />} >
-          <Route path="/shop" component={ShopPage} />
-          <Route exact path="/checkout" component={CheckoutPage} />
-          <Route
-            path="/signin"
-            render={() =>
-              currentUser ? <Redirect to="/" /> : <SignInAndSignUp />
-            }
-          />
-        </Suspense>
+        <ErrorBoundary>
+          <Route exact path="/" component={HomePage} />
+          <Suspense fallback={<Spinner />} >
+            <Route path="/shop" component={ShopPage} />
+            <Route exact path="/checkout" component={CheckoutPage} />
+            <Route
+              path="/signin"
+              render={() =>
+                currentUser ? <Redirect to="/" /> : <SignInAndSignUp />
+              }
+            />
+          </Suspense>
+        </ErrorBoundary>
       </Switch>
     </div>
   );
