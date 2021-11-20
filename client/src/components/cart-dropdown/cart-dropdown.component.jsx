@@ -2,7 +2,6 @@ import React from 'react';
 import { useSelector, useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 
-import CustomButton from "../custom-button/custom-button.component";
 import CartItem from "../cart-item/cart-item.component";
 import { selectCartItems } from "../../redux/cart/cart.selectors";
 import { toggleCartHidden } from "../../redux/cart/cart.actions";
@@ -10,6 +9,7 @@ import {
   CartDropdownContainer,
   CartItemsContainer,
   EmptyMessageContainer,
+  CartDropdownButton
 } from "./cart-dropdown.styles";
 
 const CartDropdown = () => {
@@ -28,14 +28,14 @@ const CartDropdown = () => {
           <EmptyMessageContainer>Your cart is empty</EmptyMessageContainer>
         )}
       </CartItemsContainer>
-      <CustomButton
+      <CartDropdownButton
         onClick={() => {
           history.push("/checkout");
           dispatch(toggleCartHidden());
         }}
       >
         GO TO CHECKOUT
-      </CustomButton>
+      </CartDropdownButton>
     </CartDropdownContainer>
   );
 };
