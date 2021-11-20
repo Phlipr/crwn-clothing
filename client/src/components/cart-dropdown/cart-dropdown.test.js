@@ -6,7 +6,6 @@ import CartDropdown from "./cart-dropdown.component";
 import CartItem from "../cart-item/cart-item.component";
 
 import { toggleCartHidden } from "../../redux/cart/cart.actions";
-import { selectCartItems } from "../../redux/cart/cart.selectors";
 
 // mocking the useHistory hook
 const mockPush = jest.fn();
