@@ -44,3 +44,5 @@ export const RemoveButton = styled.div`
     padding-left: 12px;
     cursor: pointer;
 `;
+
+RemoveButton.displayName = "RemoveButton";
