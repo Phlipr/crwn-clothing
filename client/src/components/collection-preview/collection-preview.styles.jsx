@@ -21,6 +21,8 @@ export const TitleHeader = styled.h1`
     }
 `;
 
+TitleHeader.displayName = "TitleHeader";
+
 export const PreviewContainer = styled.div`
     display: flex;
     justify-content: space-between;
