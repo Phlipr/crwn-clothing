@@ -45,6 +45,8 @@ export const BackgroundImageContainer = styled.div`
     background-image: ${({ imageUrl }) => `url(${imageUrl})`};
 `;
 
+BackgroundImageContainer.displayName = "BackgroundImageContainer";
+
 export const AddButton = styled(CustomButton)`
     width: 80%;
     opacity: 0.7;
@@ -59,6 +61,8 @@ export const AddButton = styled(CustomButton)`
         padding: 0 10px;
     }
 `;
+
+AddButton.displayName = "AddButton";
 
 export const CollectionFooterContainer = styled.div`
     width: 100%;
