@@ -31,11 +31,11 @@ const Header = () => {
         <OptionLink to="/shop">SHOP</OptionLink>
         <OptionLink to="/shop">CONTACT</OptionLink>
         {currentUser ? (
-          <OptionLink as="div" onClick={onSignOutStart}>
+          <OptionLink id="test-sign-out" as="div" onClick={onSignOutStart}>
             SIGN OUT
           </OptionLink>
         ) : (
-          <OptionLink to="/signin">SIGN IN</OptionLink>
+          <OptionLink id="test-sign-in" to="/signin">SIGN IN</OptionLink>
         )}
         <CartIcon />
       </OptionsContainer>

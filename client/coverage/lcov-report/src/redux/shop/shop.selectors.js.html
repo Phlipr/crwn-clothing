@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">71.43% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>0/14</span>
+                <span class='fraction'>10/14</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">25% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/4</span>
+                <span class='fraction'>1/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">50% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/8</span>
+                <span class='fraction'>4/8</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">66.67% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>0/12</span>
+                <span class='fraction'>8/12</span>
             </div>
         
             
@@ -55,7 +55,7 @@
             Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
         </p>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line medium'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -91,62 +91,62 @@
 <a name='L32'></a><a href='#L32'>32</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { createSelector } from "reselect";
 import memoize from "lodash.memoize";
 &nbsp;
-const selectShop = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(s</span>tate) =&gt; <span class="cstat-no" title="statement not covered" >state.shop;</span></span>
+const selectShop = (state) =&gt; state.shop;
 &nbsp;
-export const selectShopCollections = <span class="cstat-no" title="statement not covered" >createSelector(</span>
+export const selectShopCollections = createSelector(
   [selectShop],
-<span class="fstat-no" title="function not covered" >  (s</span>hop) =&gt; <span class="cstat-no" title="statement not covered" >shop.collections</span>
+  (shop) =&gt; shop.collections
 );
 &nbsp;
-export const selectShopCollectionsForPreview = <span class="cstat-no" title="statement not covered" >createSelector(</span>
+export const selectShopCollectionsForPreview = createSelector(
   [selectShopCollections],
-<span class="fstat-no" title="function not covered" >  (c</span>ollections) =&gt; <span class="cstat-no" title="statement not covered" >collections ? Object.keys(collections).map(<span class="fstat-no" title="function not covered" >(k</span>ey) =&gt; <span class="cstat-no" title="statement not covered" >collections[key])</span> : []</span>
+  (collections) =&gt; collections ? Object.keys(collections).map((key) =&gt; collections[key]) : <span class="branch-1 cbranch-no" title="branch not covered" >[]</span>
 );
 &nbsp;
-export const selectCollection = <span class="cstat-no" title="statement not covered" >memoize(<span class="fstat-no" title="function not covered" >(c</span>ollectionUrlParam) =&gt;</span>
+export const selectCollection = memoize(<span class="fstat-no" title="function not covered" >(c</span>ollectionUrlParam) =&gt;
 <span class="cstat-no" title="statement not covered" >  createSelector(</span>
     [selectShopCollections],
 <span class="fstat-no" title="function not covered" >    (c</span>ollections) =&gt; <span class="cstat-no" title="statement not covered" >collections ? collections[collectionUrlParam] : null</span>
   )
 );
 &nbsp;
-export const selectIsCollectionFetching = <span class="cstat-no" title="statement not covered" >createSelector(</span>
+export const selectIsCollectionFetching = createSelector(
   [selectShop],
 <span class="fstat-no" title="function not covered" >  sh</span>op =&gt; <span class="cstat-no" title="statement not covered" >shop.isFetching</span>
 );
 &nbsp;
-export const selectIsCollectionLoaded = <span class="cstat-no" title="statement not covered" >createSelector(</span>
+export const selectIsCollectionLoaded = createSelector(
   [selectShop],
 <span class="fstat-no" title="function not covered" >  sh</span>op =&gt; <span class="cstat-no" title="statement not covered" >!!shop.collections</span>
 );
@@ -157,7 +157,7 @@ export const selectIsCollectionLoaded = <span class="cstat-no" title="statement 
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Sun Nov 21 2021 20:55:53 GMT-0600 (Central Standard Time)
+                at Sat Nov 27 2021 14:57:51 GMT-0600 (Central Standard Time)
             </div>
         </div>
         <script src="../../../prettify.js"></script>
