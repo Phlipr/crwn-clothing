@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1638046672203" clover="3.2.0">
-  <project timestamp="1638046672203" name="All files">
-    <metrics statements="502" coveredstatements="179" conditionals="118" coveredconditionals="13" methods="174" coveredmethods="50" elements="794" coveredelements="242" complexity="0" loc="502" ncloc="502" packages="31" files="74" classes="74"/>
+<coverage generated="1638069396406" clover="3.2.0">
+  <project timestamp="1638069396406" name="All files">
+    <metrics statements="502" coveredstatements="193" conditionals="118" coveredconditionals="14" methods="174" coveredmethods="55" elements="794" coveredelements="262" complexity="0" loc="502" ncloc="502" packages="31" files="74" classes="74"/>
     <package name="src">
       <metrics statements="77" coveredstatements="0" conditionals="50" coveredconditionals="0" methods="27" coveredmethods="0"/>
       <file name="App.js" path="C:\Users\phill\React\crwn-clothing\client\src\App.js">
@@ -184,7 +184,7 @@
       <metrics statements="14" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
       <file name="collection-item.component.jsx" path="C:\Users\phill\React\crwn-clothing\client\src\components\collection-item\collection-item.component.jsx">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="15" count="3" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
         <line num="16" count="3" type="stmt"/>
         <line num="17" count="3" type="stmt"/>
         <line num="19" count="3" type="stmt"/>
@@ -192,15 +192,15 @@
       </file>
       <file name="collection-item.styles.jsx" path="C:\Users\phill\React\crwn-clothing\client\src\components\collection-item\collection-item.styles.jsx">
         <metrics statements="9" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="5" count="3" type="stmt"/>
-        <line num="39" count="3" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="39" count="4" type="stmt"/>
         <line num="45" count="0" type="stmt"/>
-        <line num="48" count="3" type="stmt"/>
-        <line num="50" count="3" type="stmt"/>
-        <line num="65" count="3" type="stmt"/>
-        <line num="67" count="3" type="stmt"/>
-        <line num="75" count="3" type="stmt"/>
-        <line num="80" count="3" type="stmt"/>
+        <line num="48" count="4" type="stmt"/>
+        <line num="50" count="4" type="stmt"/>
+        <line num="65" count="4" type="stmt"/>
+        <line num="67" count="4" type="stmt"/>
+        <line num="75" count="4" type="stmt"/>
+        <line num="80" count="4" type="stmt"/>
       </file>
     </package>
     <package name="src.components.collection-preview">
@@ -246,33 +246,33 @@
       <metrics statements="10" coveredstatements="7" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="custom-button.component.jsx" path="C:\Users\phill\React\crwn-clothing\client\src\components\custom-button\custom-button.component.jsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="6" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
       </file>
       <file name="custon-button.styles.jsx" path="C:\Users\phill\React\crwn-clothing\client\src\components\custom-button\custon-button.styles.jsx">
         <metrics statements="8" coveredstatements="5" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="6" type="stmt"/>
-        <line num="14" count="6" type="stmt"/>
-        <line num="27" count="6" type="stmt"/>
-        <line num="38" count="6" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
+        <line num="27" count="7" type="stmt"/>
+        <line num="38" count="7" type="stmt"/>
         <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="40" count="0" type="stmt"/>
         <line num="43" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="46" count="6" type="stmt"/>
+        <line num="46" count="7" type="stmt"/>
       </file>
     </package>
     <package name="src.components.directory">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="directory.component.jsx" path="C:\Users\phill\React\crwn-clothing\client\src\components\directory\directory.component.jsx">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="10" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
         <line num="16" count="3" type="stmt"/>
       </file>
       <file name="directory.styles.jsx" path="C:\Users\phill\React\crwn-clothing\client\src\components\directory\directory.styles.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.components.error-boundary">
@@ -336,7 +336,7 @@
       <metrics statements="14" coveredstatements="12" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="2"/>
       <file name="menu-item.component.jsx" path="C:\Users\phill\React\crwn-clothing\client\src\components\menu-item\menu-item.component.jsx">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="12" count="2" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
         <line num="13" count="4" type="stmt"/>
         <line num="14" count="4" type="stmt"/>
         <line num="16" count="4" type="stmt"/>
@@ -344,15 +344,15 @@
       </file>
       <file name="menu-item.styles.jsx" path="C:\Users\phill\React\crwn-clothing\client\src\components\menu-item\menu-item.styles.jsx">
         <metrics statements="9" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="3" count="2" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
         <line num="5" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="41" count="2" type="stmt"/>
-        <line num="43" count="2" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
         <line num="48" count="0" type="stmt"/>
-        <line num="51" count="2" type="stmt"/>
-        <line num="53" count="2" type="stmt"/>
-        <line num="66" count="2" type="stmt"/>
-        <line num="73" count="2" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="53" count="3" type="stmt"/>
+        <line num="66" count="3" type="stmt"/>
+        <line num="73" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.components.sign-in">
@@ -519,15 +519,15 @@
       </file>
     </package>
     <package name="src.pages.collection">
-      <metrics statements="12" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <metrics statements="12" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
       <file name="collection.component.jsx" path="C:\Users\phill\React\crwn-clothing\client\src\pages\collection\collection.component.jsx">
-        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
       </file>
       <file name="collection.container.jsx" path="C:\Users\phill\React\crwn-clothing\client\src\pages\collection\collection.container.jsx">
         <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -536,22 +536,22 @@
         <line num="13" count="0" type="stmt"/>
       </file>
       <file name="collection.styles.jsx" path="C:\Users\phill\React\crwn-clothing\client\src\pages\collection\collection.styles.jsx">
-        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.pages.homepage">
-      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="homepage.component.jsx" path="C:\Users\phill\React\crwn-clothing\client\src\pages\homepage\homepage.component.jsx">
-        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="0" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
       </file>
       <file name="homepage.styles.jsx" path="C:\Users\phill\React\crwn-clothing\client\src\pages\homepage\homepage.styles.jsx">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="0" type="stmt"/>
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.pages.shop">
@@ -605,12 +605,12 @@
       <metrics statements="57" coveredstatements="18" conditionals="18" coveredconditionals="0" methods="29" coveredmethods="11"/>
       <file name="cart.actions.js" path="C:\Users\phill\React\crwn-clothing\client\src\redux\cart\cart.actions.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="4"/>
-        <line num="3" count="8" type="stmt"/>
-        <line num="8" count="8" type="stmt"/>
-        <line num="13" count="8" type="stmt"/>
-        <line num="18" count="8" type="stmt"/>
-        <line num="23" count="8" type="stmt"/>
-        <line num="27" count="8" type="stmt"/>
+        <line num="3" count="9" type="stmt"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="13" count="9" type="stmt"/>
+        <line num="18" count="9" type="stmt"/>
+        <line num="23" count="9" type="stmt"/>
+        <line num="27" count="9" type="stmt"/>
       </file>
       <file name="cart.reducer.js" path="C:\Users\phill\React\crwn-clothing\client\src\redux\cart\cart.reducer.js">
         <metrics statements="11" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
@@ -660,7 +660,7 @@
       </file>
       <file name="cart.types.js" path="C:\Users\phill\React\crwn-clothing\client\src\redux\cart\cart.types.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="8" type="stmt"/>
+        <line num="1" count="9" type="stmt"/>
       </file>
       <file name="cart.utils.js" path="C:\Users\phill\React\crwn-clothing\client\src\redux\cart\cart.utils.js">
         <metrics statements="13" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="7" coveredmethods="0"/>
@@ -690,14 +690,14 @@
       </file>
       <file name="directory.selectors.js" path="C:\Users\phill\React\crwn-clothing\client\src\redux\directory\directory.selectors.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.redux.shop">
-      <metrics statements="31" coveredstatements="8" conditionals="9" coveredconditionals="1" methods="15" coveredmethods="4"/>
+      <metrics statements="31" coveredstatements="10" conditionals="9" coveredconditionals="2" methods="15" coveredmethods="6"/>
       <file name="shop.actions.js" path="C:\Users\phill\React\crwn-clothing\client\src\redux\shop\shop.actions.js">
         <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="3" count="0" type="stmt"/>
@@ -726,18 +726,18 @@
         <line num="37" count="0" type="stmt"/>
       </file>
       <file name="shop.selectors.js" path="C:\Users\phill\React\crwn-clothing\client\src\redux\shop\shop.selectors.js">
-        <metrics statements="12" coveredstatements="8" conditionals="4" coveredconditionals="1" methods="8" coveredmethods="4"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
+        <metrics statements="12" coveredstatements="10" conditionals="4" coveredconditionals="2" methods="8" coveredmethods="6"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
         <line num="13" count="3" type="cond" truecount="1" falsecount="1"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="23" count="1" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="19" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="23" count="2" type="stmt"/>
         <line num="25" count="0" type="stmt"/>
-        <line num="28" count="1" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
         <line num="30" count="0" type="stmt"/>
       </file>
       <file name="shop.types.js" path="C:\Users\phill\React\crwn-clothing\client\src\redux\shop\shop.types.js">
